@@ -1,5 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
+import { AiFillCar } from "react-icons/ai"
 import { LuGraduationCap } from "react-icons/lu";
 import kanban from "@/public/kanban_screenshot_1.png";
 import ecommerce from "@/public/ecommerce_screenshot_1.png";
@@ -50,6 +51,14 @@ export const experiencesData = [
     date: "July 2019 - March 2020",
   },
   {
+    title: "Car Detailing & Wrapping",
+    location: "",
+    description:
+      "I had a break from programming during which I did something I always wanted to try, namely working in car detailing and gaining new experiences in life.",
+    icon: React.createElement(AiFillCar),
+    date: "June 2020 - March 2022",
+  },
+  {
     title: "Full-Stack Developer - Trainee",
     location: "Codelab, Remote",
     description:
@@ -66,6 +75,7 @@ export const projectsData = [
       "Inspired by Trello. Web application for managing kanban boards.",
     tags: ["Angular", "TypeScript", "Firebase", "Angular Material", "PWA"],
     imageUrl: kanban,
+    href: "https://github.com/MateuszJajkowicz/Kanban"
   },
   {
     title: "E-Commerce-App",
@@ -73,6 +83,7 @@ export const projectsData = [
       "Full featured shopping cart, product reviews and ratings, user profile with orders, admin management, checkout process, PayPal/credit card integration",
     tags: ["MongoDB", "Express", "React", "Node", "Redux", "Bootstrap"],
     imageUrl: ecommerce,
+    href: "https://github.com/MateuszJajkowicz/MERN-Stack-E-Commerce-App"
   },
   {
     title: "LoveLee - Mobile Dating App",
@@ -80,6 +91,7 @@ export const projectsData = [
       "A dating app different from all others, compared to others available on the market, is designed to increase users commitment to the relationship they are building.",
     tags: ["Flutter", "Dart", "Firebase"],
     imageUrl: lovelee,
+    href: "https://github.com/MateuszJajkowicz/LoveLee-Dating-App"
   },
 ] as const;
 
