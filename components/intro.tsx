@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import MJ_picture from "@/public/MJ_picture.jpg";
+import Photo_Mateusz_Jajkowicz from "@/public/Photo_Mateusz_Jajkowicz.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -28,7 +28,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src={MJ_picture}
+              src={Photo_Mateusz_Jajkowicz}
               alt="Mateusz Jajkowicz portrait"
               quality="95"
               priority={true}
